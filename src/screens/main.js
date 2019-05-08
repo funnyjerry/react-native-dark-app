@@ -10,6 +10,10 @@ import {
 } from 'react-native';
 import { Button, WhiteSpace, WingBlank } from 'antd-mobile-rn'
 import { BANNERS,THEME } from '../config';
+import * as shape from 'd3-shape'
+import { AreaChart, Grid } from 'react-native-svg-charts'
+
+const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
 
 export default class App extends React.Component {
   renderPage(image, index) {
@@ -26,38 +30,23 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container} >
-        <Carousel
-          autoplay
-          autoplayTimeout={5000}
-          loop
-          index={0}
-          pageSize={BANNERS.WIDTH}>
-          {BANNERS.TOP.map((image, index) => this.renderPage(image, index))}
-        </Carousel>
+       
 
         <WhiteSpace />
 
-        <WebView
-          source={{
-            uri: BANNERS.URL,
-          }}
-          onNavigationStateChange={this.onNavigationStateChange}
-          startInLoadingState
-          scalesPageToFit
-          javaScriptEnabled
-          style={{ flex: 1 }}
-        />
+        <AreaChart
+                style={{ height: 200 }}
+                data={ data }
+                contentInset={{ top: 30, bottom: 30 }}
+                curve={ shape.curveNatural }
+                svg={{ fill: 'rgba(134, 65, 244, 0.8)' }}
+            >
+                <Grid/>
+            </AreaChart>
 
         <WhiteSpace />
 
-        <Carousel
-          autoplay
-          autoplayTimeout={BANNERS.TIMEOUT}
-          loop
-          index={0}
-          pageSize={BANNERS.WIDTH}>
-          {BANNERS.BOTTOM.map((image, index) => this.renderPage(image, index))}
-        </Carousel>
+      
       </View>
     );
   }
