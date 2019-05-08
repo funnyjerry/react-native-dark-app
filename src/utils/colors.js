@@ -2,7 +2,9 @@ export default {
   WHITE : '#ffffff',
   PURPLE : '#5a33e7',
   GREEN : '#b5e61d',
-  DARKBLUE : '#0c3f6c',
+  DARKBLUE : '#030F2C',
+  DARKBLUE2 : '#0B244F',
+
   Orange : '#ff9c66',
   RED : '#d54157',
   BLUE : '#3d5a98',
@@ -17,4 +19,6 @@ export default {
   PINK: '#fa4093',
   BACKGROUND: '#283152',
   BLACK : '#111',
+  SKY : '#18ABF4',
+
 }
