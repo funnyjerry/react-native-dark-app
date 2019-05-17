@@ -1,9 +1,9 @@
 export default {
   WHITE : '#ffffff',
   PURPLE : '#5a33e7',
-  GREEN : '#b5e61d',
+  GREEN : '#b5e61d',  
   DARKBLUE : '#030F2C',
-  DARKBLUE2 : '#0B244F',
+  DARKBLUE2 : '#0B204F',
 
   Orange : '#ff9c66',
   RED : '#d54157',

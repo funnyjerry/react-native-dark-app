@@ -1,14 +1,18 @@
 import React from 'react';
 import { StyleSheet, Image, View, Dimensions, Text } from 'react-native';
 import * as shape from 'd3-shape'
-import { AreaChart, Grid } from 'react-native-svg-charts'
+import { Grid, LineChart, XAxis, YAxis, AreaChart } from 'react-native-svg-charts'
 import MaterialTabs from 'react-native-material-tabs';
 import colors from '../utils/colors';
 import config from '../utils/config';
 
 import { LinearGradient } from 'expo';
 
-const data = [50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80]
+const data = [ -4,-3,-2,-1,2,4,6,8,9,12,14,15,18,20, 25,43,35,36,38,60,65,67,68,55,54,52,49,60,64,70,80,90,91,102,104, 90,88,84,82,91,92,93,94,95,96,99,110,112,115,120,113,112,111,88,89,100,102,102,75, ]
+
+const axesSvg = { fontSize: 10, fill: 'grey' };
+const verticalContentInset = { top: 10, bottom: 10 }
+const xAxisHeight = 30
 
 export default class App extends React.Component {
 
@@ -30,21 +34,25 @@ export default class App extends React.Component {
         <LinearGradient
           style={[styles.mainContent, {
             width: config.width,
-            height: config.height,
           }]}
           colors={[colors.DARKBLUE, colors.DARKBLUE2]}
-          start={{ x: 0, y: .1 }} end={{ x: .1, y: 1 }}
         >
-          <AreaChart
-            style={{ height: 200 }}
-            data={data}
-            contentInset={{ top: 30, bottom: 30 }}
-            curve={shape.curveNatural}
-            svg={{ fill: 'rgba(134, 65, 244, 0.8)' }}
-          >
-            <Grid />
-          </AreaChart>
+          <View style={{ height: 200, padding: 20, flexDirection: 'row' }}>
+             
+                <View style={{ flex: 1, marginLeft: 10 }}>
 
+                <AreaChart
+                    style={{ height: 200 }}
+                    data={ data }
+                    svg={{ fill: colors.SKY }}
+            
+                >
+                    <Grid/>
+                </AreaChart>
+
+                </View>
+            </View>
+            <View style={{ height: 300}}/>
           <MaterialTabs
             items={["OVERVIEW", "RESEARCH", "TOP 10s", "CHARGES"]}
             selectedIndex={this.state.selectedTab}
