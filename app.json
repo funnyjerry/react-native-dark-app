@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "wangyu1",
+    "name": "wangharryapp",
     "description": "No description",
     "slug": "snack-Hkj7fdf14",
     "privacy": "unlisted",
-    "sdkVersion": "31.0.0",
-    "version": "1.0.0",
+    "sdkVersion": "32.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
