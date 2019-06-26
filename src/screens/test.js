@@ -27,7 +27,7 @@ export default class Test extends React.Component {
   render() {
     return (
       <View style={styles.container} >
-        <Text> This is demo</Text>
+        <Text> This is demo Test</Text>
       </View>
     )
   }
