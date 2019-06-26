@@ -1,7 +1,6 @@
 class Cache {
   constructor() {
     this.currentUser = null;
-    this.requestStack = [];
     this.router = [];
   }
 }
