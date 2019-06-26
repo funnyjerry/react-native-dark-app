@@ -53,6 +53,8 @@ export default class App extends React.Component {
                 </View>
             </View>
             <View style={{ height: 300}}/>
+
+
           <MaterialTabs
             items={["OVERVIEW", "RESEARCH", "TOP 10s", "CHARGES"]}
             selectedIndex={this.state.selectedTab}
@@ -64,11 +66,8 @@ export default class App extends React.Component {
             textStyle={{ fontSize: 12 }}
           />
 
-
         </LinearGradient>
-
-
-
+        
       </View>
     );
   }
