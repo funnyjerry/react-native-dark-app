@@ -1,8 +1,3 @@
-# react-native-dark-app
+# Wang React-Native UI challenge
 
-Cool APP with banners and webview
-
-<img src="https://raw.githubusercontent.com/funnyjerry/react-native-dark-app/master/images/1.PNG" alt="Demo1" width="340" />
-<img src="https://raw.githubusercontent.com/funnyjerry/react-native-dark-app/master/images/2.PNG" alt="Demo1" width="340" />
-<img src="https://raw.githubusercontent.com/funnyjerry/react-native-dark-app/master/images/3.PNG" alt="Demo1" width="340" />
-<img src="https://raw.githubusercontent.com/funnyjerry/react-native-dark-app/master/images/4.PNG" alt="Demo1" width="340" />
+<img src="screenshots/1.Home.png"><img src="screenshots/2.Trending.png"><img src="screenshots/3.Subscription.png">
