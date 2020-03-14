@@ -1,9 +1,9 @@
 {
+  "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://qh-2ge.anonymous.react-native-dark-app.exp.direct",
-  "packagerNgrokUrl": "https://packager.qh-2ge.anonymous.react-native-dark-app.exp.direct",
-  "ngrokPid": 13576,
   "packagerPort": 19001,
-  "packagerPid": 8716,
-  "devToolsPort": 19002
+  "packagerPid": 5896,
+  "expoServerNgrokUrl": "https://wj-ncj.sun20171001.rn-dark.exp.direct",
+  "packagerNgrokUrl": "https://packager.wj-ncj.sun20171001.rn-dark.exp.direct",
+  "ngrokPid": 8720
 }

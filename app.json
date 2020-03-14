@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "wangharryapp",
+    "name": "darkapp",
     "description": "No description",
     "slug": "snack-Hkj7fdf14",
     "privacy": "unlisted",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "36.0.0",
     "version": "1.0.1",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
