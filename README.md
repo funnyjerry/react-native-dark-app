@@ -1,4 +1,4 @@
-# React-Native UI challenge
+# React-Native UI Demo App challenge
 
 <img src="screenshots/1.Home.png"  width="33%"><img src="screenshots/2.Trending.png" width="33%"><img src="screenshots/3.Subscription.png" width="33%">
 <img src="screenshots/4.Detail.png"  width="33%"><img src="screenshots/5.Navigation Drawer.png" width="33%"><img src="screenshots/6.Menu.png" width="33%">
