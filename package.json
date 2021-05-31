@@ -19,7 +19,7 @@
     "react-native-router-flux": "4.0.6",
     "react-native-svg": "9.13.3",
     "react-native-svg-charts": "^5.2.0",
-    "react-native-webview": "7.4.3",
+    "react-native-webview": "11.0.0",
     "react-navigation": "3.8.1",
     "react-navigation-deprecated-tab-navigator": "*",
     "react-redux": "5.1.1",
