@@ -1,4 +1,4 @@
-# React-Native UI Demo App challenge
+# React-Native UI Demo App challenge 2
 
 <img src="screenshots/1.Home.png"  width="240">
 <img src="screenshots/2.Trending.png" width="240">*
